@@ -1,1 +1,7 @@
-
+name: HackerOS-Events
+version: 0.1
+authors:
+  - HackerOS Team <hackeros068@gmail.com>
+description: |
+  A simple Crystal tool that checks if today is a Polish holiday and sends a desktop notification using notify-send if it is.
+crystal: ">= 1.0.0"
