@@ -1,1 +1,10 @@
+[Unit]
+Description=HackerOS Events
 
+[Service]
+Type=oneshot
+ExecStart=/usr/lib/HackerOS/HackerOS-Events
+Restart=no
+
+[Install]
+WantedBy=default.target
