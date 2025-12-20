@@ -1,3 +1,7 @@
 // crystal
+
+! > systemctl --user daemon-reload                          <
+! > systemctl --user enable hackeros_events.service         < use this to working
+! > systemctl --user start hackeros_events.service          < 
 > cd source-code
-> crystal build src/main.cr --release
+>>> crystal build src/main.cr --release
